@@ -58,7 +58,7 @@ modules:
         commit: c19d6225acc9d93c55a98d972fcb118b5d32b2f7
         x-checker-data:
           type: git
-          tag-pattern: ^wsjtx-([\\d.]+)$
+          tag-pattern: ^wsjtx-([\d.]+)$
       - type: script
         dest-filename: wsjtx.sh
         commands:

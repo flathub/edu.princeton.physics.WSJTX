@@ -25,6 +25,16 @@ modules:
   - shared-modules/libusb/libusb.json
   - shared-modules/linux-audio/fftw3f.json
 
+  - name: portaudio
+    sources:
+      - type: archive
+        url: http://files.portaudio.com/archives/pa_stable_v190600_20161030.tgz
+        sha256: f5a21d7dcd6ee84397446fa1fa1a0675bb2e8a4a6dceb4305a8404698d8d1513
+        x-checker-data:
+          type: anitya
+          project-id: 10597
+          url-template: http://files.portaudio.com/archives/pa_stable_v$version.tgz
+
   - name: boost
     sources:
       - type: archive
@@ -54,8 +64,8 @@ modules:
     sources:
       - type: git
         url: https://git.code.sf.net/p/wsjt/wsjtx
-        tag: wsjtx-2.4.0
-        commit: c19d6225acc9d93c55a98d972fcb118b5d32b2f7
+        tag: wsjtx-2.5.0
+        commit: f95b59b1cd0e7002d8c140179b81dd59a8e732df
         x-checker-data:
           type: git
           tag-pattern: ^wsjtx-([\d.]+)$

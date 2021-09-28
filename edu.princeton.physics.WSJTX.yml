@@ -54,8 +54,8 @@ modules:
     sources:
       - type: git
         url: https://git.code.sf.net/p/wsjt/wsjtx
-        tag: wsjtx-2.4.0
-        commit: c19d6225acc9d93c55a98d972fcb118b5d32b2f7
+        tag: wsjtx-2.5.0
+        commit: f95b59b1cd0e7002d8c140179b81dd59a8e732df
         x-checker-data:
           type: git
           tag-pattern: ^wsjtx-([\d.]+)$

@@ -38,8 +38,8 @@ modules:
   - name: boost
     sources:
       - type: archive
-        url: https://boostorg.jfrog.io/artifactory/main/release/1.77.0/source/boost_1_77_0.tar.bz2
-        sha256: fc9f85fc030e233142908241af7a846e60630aa7388de9a5fafb1f3a26840854
+        url: https://boostorg.jfrog.io/artifactory/main/release/1.78.0/source/boost_1_78_0.tar.bz2
+        sha256: 8681f175d4bdb26c52222665793eef08490d7758529330f98d3b29dd0735bccc
         x-checker-data:
           type: anitya
           project-id: 6845
@@ -53,8 +53,8 @@ modules:
   - name: hamlib
     sources:
       - type: archive
-        url: https://github.com/Hamlib/Hamlib/releases/download/4.3.1/hamlib-4.3.1.tar.gz
-        sha256: 3437386dfdd2314f108cf35f1527b20d784256b76633d216a50de94f4045a730
+        url: https://github.com/Hamlib/Hamlib/releases/download/4.4/hamlib-4.4.tar.gz
+        sha256: 8bf0107b071f52f08587f38e2dee8a7848de1343435b326f8f66d95e1f8a2487
         x-checker-data:
           type: anitya
           project-id: 1292

@@ -19,7 +19,6 @@
     <project_license>GPL-3.0+</project_license>
     <url type="bugtracker">https://sourceforge.net/projects/wsjt/lists/wsjt-devel</url>
     <url type="homepage">https://physics.princeton.edu/pulsar/K1JT/index.html</url>
-    <project_group>none</project_group>
     <screenshots>
         <screenshot type="default">
             <caption>Main WSJT-X window</caption>

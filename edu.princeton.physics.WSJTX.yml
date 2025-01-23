@@ -52,8 +52,8 @@ modules:
   - name: hamlib
     sources:
       - type: archive
-        url: https://github.com/Hamlib/Hamlib/releases/download/4.6/hamlib-4.6.tar.gz
-        sha256: 6f873579bc4e0ef4e540313ec2acd4f198b5510d7dd9397a4ae68fe8ff20d167
+        url: https://github.com/Hamlib/Hamlib/releases/download/4.6.1/hamlib-4.6.1.tar.gz
+        sha256: 0822f59fdda0e40283eb55d94c64fc92e608ec9985414acae93d122fa83dacd4
         x-checker-data:
           type: anitya
           project-id: 1292

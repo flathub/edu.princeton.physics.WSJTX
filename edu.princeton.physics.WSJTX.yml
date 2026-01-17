@@ -21,7 +21,6 @@ cleanup:
   - '*.a'
   - '*.la'
 modules:
-  - shared-modules/libusb/libusb.json
   - shared-modules/linux-audio/fftw3f.json
 
   - name: portaudio
